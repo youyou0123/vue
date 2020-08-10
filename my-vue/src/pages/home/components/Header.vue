@@ -1,10 +1,19 @@
 <template>
   <div class="header">
     <div class="left">
-      <van-icon name="arrow-left" />
+      <div class="iconfont back-icon">
+        &#xe624;
+      </div>
     </div>
-    <div class="content">输入城市景点</div>
-    <div class="right">城市</div>
+    <div class="content">
+      <span class="iconfont">
+        &#xe632;
+      </span>
+      输入城市景点</div>
+    <div class="right">
+      城市
+      <span class="iconfont arrow-icon">&#xe64a;</span>
+      </div>
   </div>
 </template>
 
@@ -26,10 +35,17 @@ export default {
   height: .86 rem
   line-height: .86 rem
   background-color: #00bcd4
+  color: #ffffff
 }
 .left{
   width:.64 rem
+  height: .64 rem
   float: left
+  color: #ffffff
+  .back-icon{
+    text-align: center
+    font-size: .4 rem
+  }
 }
 .content{
   flex: 1
@@ -40,10 +56,15 @@ export default {
   line-height: .64 rem
   background-color: #fff
   color: #ccc
+  padding-left: .2 rem
 }
 .right{
   width: 1.24 rem
   float: right
   text-align: center
+  .arrow-icon{
+    margin-left: -.04 rem
+    font-size: .24 rem
+  }
 }
 </style>
