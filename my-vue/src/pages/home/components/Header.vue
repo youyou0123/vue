@@ -29,12 +29,12 @@ export default {
  <!-- 移动端像素设置为： 1rem=html font-size:50px rem计算方法为：实际像素/100=所需rem -->
 
 <style lang="stylus" scoped>
-
+  @import '~styles/varibles.styl'
 .header{
   display: flex
   height: .86 rem
   line-height: .86 rem
-  background-color: #00bcd4
+  background-color: $bgColorOne
   color: #ffffff
 }
 .left{
