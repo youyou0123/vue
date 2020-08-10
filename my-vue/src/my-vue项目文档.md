@@ -14,6 +14,9 @@ npm install --g vue-cli
 
 ###### 框架vant安装命令
 npm i vant -S
+###### 自动按需引入框架组件
+npm i babel-plugin-import -D
+
 
 ###### vuex安装命令
 npm install vuex --save
